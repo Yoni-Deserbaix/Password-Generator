@@ -51,7 +51,7 @@ body {
   padding-left: 20px;
 }
 
- #copy__psw {
+ #psw__copy {
   display: inline-flex;
   font-size: 1.5rem;
   border-radius: 8px;
@@ -87,12 +87,12 @@ input[type=range]::-webkit-slider-runnable-track {
   border-radius: 6px;
 }
 
-#charCount {
+#Count {
   font-size: 30px;
   color: #333;
 }
 
-#genere__psw {
+#psw__btn {
   margin-top: 30px;
   font-size: 1.5rem;
   outline: none;
@@ -122,12 +122,12 @@ footer {
   input {
     font-size: 1rem;
   }
-  #charCount {
+  #Count {
     font-size: 20px;
     color: #333;
   }
 
-  #genere__psw {
+  #psw__btn {
     font-size: 1rem;
   }
   footer {

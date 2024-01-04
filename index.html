@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
-    <!-- Méta-informations du document -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
 
-    <!-- Lien vers la feuille de style CSS -->
+    <link rel="stylesheet" href="githubCorner.html">
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -16,34 +15,33 @@
     />
   </head>
   <body>
+   
     <div class="container">
-      <!-- Titre de la page -->
       <header>
         <h1>Password generator</h1>
       </header>
 
-      <!-- Champ de texte pour afficher le mot de passe généré -->
+      <!-- Text field to display the generated password -->
       <main>
         <div class="input">
-          <input type="text" value="" id="input" />
-          <div id="copy__psw">
+          <input type="text" value="" id="psw__input" />
+          <div id="psw__copy">
             <i class="fa fa-copy" style="color: #767676" ;></i>
           </div>
         </div>
 
-        <!-- Plage de sélection pour la longueur du mot de passe -->
-        <input type="range" id="length__psw" min="1" max="16" value="16" />
-        <span id="charCount">16</span>
+        <!-- Range input for the password length -->
+        <input type="range" id="psw__length" min="1" max="16" value="16" />
+        <span id="Count">16</span>
 
-        <!-- Bouton pour générer un mot de passe aléatoire -->
-        <button id="genere__psw">Generate password</button>
+        <!-- Button to generate a random password -->
+        <button id="psw__btn">Generate password</button>
       </main>
     </div>
     <footer>
-      Copyright 2024 @ Yoni-Deserbaix
+      Copyright 2024 @ Yoni Deserbaix
     </footer>
 
-    <!-- Inclusion du script JavaScript -->
     <script src="script.js"></script>
   </body>
 </html>
